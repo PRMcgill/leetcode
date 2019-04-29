@@ -24,4 +24,4 @@ class Solution(object):
             A[i]=abs(A[i])
             i=i+1
         A.sort()
-        return [x**2 f
+        return [x**2 for x in A]
